@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yuhao Zhuang Personal Page</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="home.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+
+<div id="top_title" >
+    <p id="name">Yuhao Zhuang</p>
+    <span id="phone"> 858-649-9438</span>
+    <span id="email"> zhuangy625@gmail.com</span>
+    <button id ="resume" type="submit" onclick="window.open('Yuhao-Resume.pdf')"><i class="fa fa-download"></i> Resume</button>
+    <img src="profile_pic.jpg" id ="profile_pic">
+    <p id="description">Personal Projects Showcase</p>
+    <p id="help">Click on Image to See Full Site</p>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <div class="numbertext"> Museusm Exhibition</div>
+  <img class ="project_pic fade" src="Project-exhibit.jpg" onclick="window.open('https://yuhao-zhuang-theiron-museum-exihibit.glitch.me/')">
+  <div class="text">Responsive web page for showcasing pictures, implemented with css flexboxes. Web page scales differently based on PC, Tablet, and Phone.</div>
+</div>
+    
+<div class="mySlides">
+  <div class="numbertext">Postcard Sharer</div>
+  <img class ="project_pic" src="Project-exhibit2.jpg" onclick="window.open('https://giddy-chipped-harbor.glitch.me/')" >
+  <div class="text">Postcard creator website that stores pictures using SQL databases, using Node.js (express) servers to transmit JSON data to the client. Allows users to upload images and choose multiple fonts/colors and share them as a postcard with their friends.</div>
+</div>
+    
+<div class="mySlides">
+  <div class="numbertext">Lost and Found UCD</div>
+  <img class ="project_pic" src="Project-exhibit3.jpg" onclick="window.open('https://copper-relic-lathe.glitch.me/')" >
+  <div class="text">Lost and Found website for UC Davis, used SQL databases to store lost and found items, incorporated Google Map API to let users to accurately input locations of the lost/found items.</div>
+</div>
+    
+<div class="mySlides">
+  <div class="numbertext">Typing Test</div>
+  <img class ="project_pic" src="Project-exhibit4.jpg" onclick="window.open('https://ultratypeking.github.io/')" >
+  <div class="text">Web-based typing game using Javascript to record users’ keyboard inputs and gives the users their WPM(word per minute).</div>
+</div>
+    
+<div class="mySlides">
+  <div class="numbertext">Data Stcutures and Algoirthm Wiki</div>
+  <img class ="project_pic" src="Project-exhibit5.jpg" onclick="window.open('https://yuhaozhuang.github.io/')" >
+  <div class="text">A simple website for learning basic Learning Data Structures and Algorithms, used css and html to create navigation bars and created good formatted websites</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+</body>
+</html>
